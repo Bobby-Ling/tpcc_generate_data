@@ -33,6 +33,7 @@
 
 int main(int argc, char *argv[]) {
     init_logger();
+    init_all_config();
 
     // Check input
     if (argc != 2) {
